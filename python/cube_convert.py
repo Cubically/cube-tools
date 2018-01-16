@@ -1,22 +1,5 @@
 import sys
 
-"""A quick script that asks the user via the console to input a cube,
-and prints out the portable 120 character cube string
-"""
-
-template = \
-"""
-             %2s  %2s  %2s
-             %2s   R  %2s
-             %2s  %2s  %2s
-%2s  %2s  %2s   %2s  %2s  %2s   %2s  %2s  %2s    %2s  %2s  %2s
-%2s   B  %2s   %2s   W  %2s   %2s   G  %2s    %2s   Y  %2s
-%2s  %2s  %2s   %2s  %2s  %2s   %2s  %2s  %2s    %2s  %2s  %2s
-             %2s  %2s  %2s
-             %2s   O  %2s
-             %2s  %2s  %2s
-"""
-
 cc = raw_input()
 
 # Prepending a character because I used the wrong indexes below and
