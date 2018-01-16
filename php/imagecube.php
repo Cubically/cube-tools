@@ -1,9 +1,12 @@
 <?php
 /*
  * ImageCube by Lars Vandenbergh
- * 3rd septmber 2004
+ * 3rd September 2004
  *
- * A PHP script for generating static 3D views of the 3x3x3 Rubik's Cube 
+ * With modifications by MD XF
+ * 15th Janunary 2018
+ *
+ * A PHP script for generating static 3D views of the 3x3x3 Rubik's Cube
  */
  
 // initialize paramaters
