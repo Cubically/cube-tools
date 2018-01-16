@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-make tlf 2>/dev/null 1>&2
+make tlf
 
 bash bash/rbwgyo.bash >/tmp/im1.txt
 c/top-left-front </tmp/im1.txt >/tmp/im2.txt

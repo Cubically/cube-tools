@@ -15,5 +15,23 @@ Outputs the top, left, and front faces as a PNG image. This uses a modification 
  - PHP >= 7.2
  - PHP-GD >= 7.2
  - LibPCRE3 >= 2:8.41-1.1
+ - C compiler
+ - GNU Make
 
-`./install-prereq` will install these for you. You need to have sudoer privileges.
+`bash/install-prereq` will install these for you. You need to have sudoer privileges.
+
+# Solver
+
+Outputs the cube formatted for the (readable) input of [this solver](https://github.com/Cubically/solver).
+
+### Usage
+
+    ./solver <dump.txt
+
+Append `--run-script` to use the solver's [Python script](https://github.com/Cubically/solver/blob/master/cube_convert.py).
+
+### Prerequisites
+
+ - C compiler
+ - GNU make
+ - Python 2

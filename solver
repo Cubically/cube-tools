@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+make rmm
+
+c/remove-middles | bash bash/rbwgyo.bash | tr -d ' \n' >/tmp/so1.txt
+
+if [ "$1" == "--run-script" ]; then
+    python2 python/cube_convert.py </tmp/so1.txt
+else
+    cat /tmp/so1.txt
+fi
+
+rm /tmp/so1.txt
