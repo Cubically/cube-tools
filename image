@@ -5,3 +5,5 @@ make tlf 2>/dev/null 1>&2
 bash bash/rbwgyo.bash >/tmp/im1.txt
 c/top-left-front </tmp/im1.txt >/tmp/im2.txt
 cat /tmp/im2.txt | tr -d ' \n' | xargs php7.2 php/imagecube.php
+
+rm /tmp/im1.txt /tmp/im2.txt
