@@ -35,3 +35,16 @@ Append `--run-script` to use the solver's [Python script](https://github.com/Cub
  - C compiler
  - GNU make
  - Python 2
+
+# Cubies
+
+Outputs the cube formatted for the input of [this solver](https://github.com/Cubically/thistlethwaite).
+
+### Usage
+
+    ./solver <dump.txt
+
+### Prerequisites
+
+ - C compiler
+ - GNU make

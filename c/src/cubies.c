@@ -63,4 +63,7 @@ int main(void)
     printf("%c%c%c ", "ULFRBD"[CUBE(5,0,0)], "ULFRBD"[CUBE(2,2,0)], "ULFRBD"[CUBE(1,2,2)]);  // DFL
     printf("%c%c%c ", "ULFRBD"[CUBE(5,2,0)], "ULFRBD"[CUBE(1,2,0)], "ULFRBD"[CUBE(4,2,2)]);  // DLB
     printf("%c%c%c ", "ULFRBD"[CUBE(5,2,2)], "ULFRBD"[CUBE(4,2,0)], "ULFRBD"[CUBE(3,2,2)]);  // DBR
+
+    puts("");
+    return 0;
 }
